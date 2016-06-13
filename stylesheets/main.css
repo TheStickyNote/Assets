@@ -1,0 +1,275 @@
+body,html{margin:0;height:100%;}
+
+div.content{
+    font-size:12pt;
+}
+
+
+
+h3{
+    font-size:18pt;
+}
+
+h4{
+    font-size:16pt;
+}
+
+.caption{
+    font-size:12pt;
+}
+h2.stickynote,p.stickynote{
+  font-size:100%;
+  font-weight:normal;
+}
+ul.stickynote,li.stickynote{
+  list-style:none;
+}
+ul.stickynote{
+  overflow:hidden;
+  padding:1em;
+}
+ul.stickynote li.stickynote a.stickynote{
+  text-decoration:none;
+  color:black;
+  background:#b3f0ff;  
+  display:block;
+  height:8em;
+  width:8em;
+  padding:1em;
+}
+ul.stickynote li.stickynote{
+  margin:5px;
+  float:left;
+}
+
+/* Text and Fonts */
+
+
+/* Columns */
+.col-lg-2{
+    background-color:white; 
+    overflow:initial;  
+    height:auto;
+    margin-top:50px;
+    padding:10px;
+}
+.col-lg-3{
+    overflow:initial;
+    
+    margin-top:50px;
+    
+}
+
+
+.col-lg-4{
+    overflow:initial;
+    
+    margin-top:20px;
+   
+    
+}
+
+.col-lg-6{
+    margin-top:10px;
+    margin-left:0px;
+    background-color: #F3F8FC; 
+    height:auto;
+}
+
+.col-lg-7{
+    margin-top:10px;
+    background-color: #F3F8FC; 
+    height:auto;
+}
+
+.col-lg-9{
+    margin-top:10px;
+    margin-right:0px;
+    background-color: #F3F8FC; 
+    height:auto;
+}
+.col-lg-12{
+   
+}
+
+
+/* Navbar */
+.navbar-custom{
+    background-color:#353A4A;
+    font-family: 'Bree Serif';
+    padding-left:20px;
+
+}
+
+
+a.navbar-brand:visited{color:white;}
+a.navbar-brand{color:white;}
+
+.navbar-toggle .icon-bar {background-color: white;}
+
+a.menubar{
+      color:white;
+}
+
+a.menubar:hover{
+color:white;
+}
+
+a.menubar:visited{
+color:white;
+}
+
+/* Content */
+.twitter{
+    margin-top:30px;
+}
+
+.content{
+    height:auto; 
+    background-color:white;
+    margin-top:0px;
+    padding:10px;
+    text-align:justify;
+}
+
+.title{
+    margin-bottom: 0px; /*Runs the Content and Title Together as one element */
+    text-align:center;
+    height:auto;
+    margin-top:50px;
+}
+
+#maintitle{
+     margin-bottom: 0px; /*Runs the Content and Title Together as one element */
+    text-align:center;
+    height:auto;
+    margin-top:20px;
+}
+
+#mainlogo{
+margin-top:80px;    
+}
+
+.forcelogo{
+    margin-bottom: 0px; 
+    height: auto;
+    margin-top: 50px;
+}
+
+.mobile-hide{
+    display:block;
+}
+
+
+.fotd{
+    padding:10px;
+    background-color:white;
+}
+
+.fotd-title{
+    text-align:center;
+    
+}
+
+.mobile-only{
+    display:none;
+}
+
+.center{
+    text-align:center;
+    float:none;
+}
+
+/*Media Queries */
+/* Phones */
+@media only screen and (max-width: 767px) {
+
+.mobile-hide{
+    display:none;
+
+}
+
+.mobile-only{
+    display: block;
+}
+.content{
+    background-color:#F3F8FC;
+    height:auto;
+}
+
+
+
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+@media only screen and (max-width:700px) { 
+.mobile-hide{
+    display:none;
+
+}
+
+.mobile-only{
+    display: block;
+}
+    
+}
+
+
+a{
+    font-family:'Lato';
+    text-decoration: none;
+    color:rgb(235,80,85);
+
+}
+p{
+    font-family:'Lato';
+    color:rgb(53,58,74);
+}
+
+h1{
+    font-family: 'Bree Serif';
+    color:rgb(51,51,51);
+}
+
+h2{
+    font-family: 'Bree Serif';
+    color:rgb(51,51,51);
+}
+h3{
+    font-family:'Lato';
+    color:rgb(51,51,51);
+}
+
+h3{
+    font-family:'Lato';
+}
+h4{
+    font-family:'Lato';
+    color:rgb(53,58,74);
+}
+h5{
+    font-family:'Lato';
+    color:rgb(128,140,178);
+    
+}
+h6{
+    font-family:'Lato';
+}
+a:hover{
+    font-family:'Lato';
+   color:rgb(181,61,65);
+}
+
+a:visited{
+    font-family:'Lato';
+    color:rgb(232,57,63);
+}
+footer{
+    font-family:'Lato';
+     text-align:center;
+    background-color:#353A4A;
+    color:white;
+    position:fixed;
+    bottom:0; 
+    width:100%
+}
